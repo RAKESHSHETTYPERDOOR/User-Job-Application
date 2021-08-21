@@ -21,8 +21,6 @@ const Admin=(props)=>  {
     ]
     
     return(
-
-
         <div>
             <ul class="list-group"> 
                 <li  class="list-group-item active" aria-current="true">Admin-DashBoard</li>
@@ -34,11 +32,7 @@ const Admin=(props)=>  {
 
                 }
                  
-            </ul>
-
-            
-            
-            
+            </ul>      
         </div>
    
    )

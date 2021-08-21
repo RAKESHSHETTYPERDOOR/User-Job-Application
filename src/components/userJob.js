@@ -6,15 +6,9 @@ const UserJob = (props)=>{
 
    
     return(
-        <div  >
-
-       
+        <div>
           <h1>Apply for a Job</h1>
-
-          
           <JobForm/>
-
-
         </div>
     )
 }
