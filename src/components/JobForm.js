@@ -5,7 +5,7 @@ import validator from 'validator'
 
 const JobForm=(props)=>{
 
-  const [fullname,setfullName]=useState('')
+  const [fullname,setfullName]=useState(' ')
   const [email,setEmail]=useState('')
   const [phone,setPhone]=useState('')
   const [experiance,setExperiance]=useState('')

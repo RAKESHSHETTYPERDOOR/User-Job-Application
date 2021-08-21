@@ -7,13 +7,8 @@ function App(props) {
 
 
   return(
-     <div >
-     
-    <NavBar/>
-       
-
-
-      
+      <div>
+     <NavBar/> 
     </div>
   );
 }

@@ -7,6 +7,7 @@ import FrontEnd from './FrontEnd'
 import MernStack from './MernStack'
 import NodeJs from './NodeJs'
 import FullStack from './FullStack'
+import ShowData from './ShowData'
 
 const NavBar=(props)=>{
     const {admin}=props
@@ -51,6 +52,9 @@ const NavBar=(props)=>{
            }
            }
             ></Route>
+
+
+          
            
 
            

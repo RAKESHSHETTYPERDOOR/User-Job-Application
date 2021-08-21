@@ -23,7 +23,7 @@ const FrontEnd=(props)=>{
           transform: 'translate(-50%, -50%)',
           height:'10x',
           backgroundColor:'white',
-          boxShadow:'0 0 10px 0'
+          boxShadow:'0 0 10px 0',
         },
       };
    
@@ -34,7 +34,7 @@ const FrontEnd=(props)=>{
         axios.get('http://dct-application-form.herokuapp.com/users/application-forms')
         .then((response)=>{
           const result= response.data
-          console.log(result)
+
          const frontend= result.filter((ele)=>{
               return ele.jobTitle === "Front-End Developer"
           })
