@@ -161,15 +161,7 @@ const FullStack=(props)=>{
                           
                     </tr>
                 })}
-
-
-
              </tbody>
-
-
-
-
-
          </table>
          <div>
          <Modal isOpen={modalIsopen} style={customStyles}> 
@@ -180,9 +172,7 @@ const FullStack=(props)=>{
             <button onClick={()=>{(setModalIsopen(false))}} type="button" class="btn btn-danger">Close</button>
          </Modal>
          </div>
-         
-
-      </div>
+     </div>
 
     )
 }
